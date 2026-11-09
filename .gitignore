@@ -1,0 +1,6 @@
+# Archivos del sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+*.bak
