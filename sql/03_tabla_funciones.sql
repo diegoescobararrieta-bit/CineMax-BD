@@ -1,10 +1,3 @@
--- =====================================================================
--- CineMax - Script 03: Tabla FUNCIONES
--- Una función pertenece a una película (N -> 1) y tiene muchas compras
--- (1 -> N). CRUD completo.
--- ON DELETE RESTRICT: no se puede borrar una película con funciones.
--- =====================================================================
-
 CREATE TABLE IF NOT EXISTS funciones (
     id                BIGSERIAL      PRIMARY KEY,
     pelicula_id       BIGINT         NOT NULL,

@@ -1,8 +1,3 @@
--- =====================================================================
--- CineMax - Script 02: Tabla PELICULAS
--- Una película tiene muchas funciones (1 -> N). CRUD completo.
--- =====================================================================
-
 CREATE TABLE IF NOT EXISTS peliculas (
     id            BIGSERIAL     PRIMARY KEY,
     titulo        VARCHAR(150)  NOT NULL,
